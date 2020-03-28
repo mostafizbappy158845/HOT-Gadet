@@ -1,3 +1,29 @@
 .navbar{
+    /* background-color: white; */
+}
+
+.carousel-item{
+    padding: 20px 40px;
+    
+}
+.buy-now-button{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 20px;
+    
+}
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.price-button{
+    text-align: center;
+}
+
+.card-footer{
     background-color: white;
+    border-top: none;
 }
