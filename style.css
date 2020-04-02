@@ -1,6 +1,10 @@
 .navbar{
     /* background-color: white; */
 }
+.container{
+    margin-bottom: 100px;
+   overflow-x: auto;
+}
 
 .carousel-item{
     padding: 20px 40px;
@@ -26,4 +30,16 @@
 .card-footer{
     background-color: white;
     border-top: none;
+}
+.categories{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.zxc{
+    align-items: center;
+}
+.col-md-3 ,img{
+    padding: 15px 1px;
+    
 }
