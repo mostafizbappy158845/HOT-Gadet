@@ -1,15 +1,19 @@
-.navbar{
-    /* background-color: white; */
+/* .navbar-brand ,img{
+    height: 80px;
+} */
+#nav-margin{
+    margin-bottom: 0px;
 }
 .container{
-    margin-bottom: 100px;
-   overflow-x: auto;
+    margin-bottom: 80px;
+    overflow-x: hidden;
 }
 
 .carousel-item{
     padding: 20px 40px;
     
 }
+
 .buy-now-button{
     background-color: black;
     color: white;
@@ -17,6 +21,9 @@
     border-radius: 5px;
     padding: 8px 20px;
     
+}
+#see-all{
+    color: orange;
 }
 .card{
     border: none;
@@ -41,5 +48,10 @@
 }
 .col-md-3 ,img{
     padding: 15px 1px;
+    
+}
+u
+{
+    text-decoration-color: orange;
     
 }

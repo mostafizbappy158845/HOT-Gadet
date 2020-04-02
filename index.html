@@ -11,26 +11,34 @@
 </head>
 <body>
 
-     <div class="container"> 
+     <div class="container" id="nav-margin"> 
 
-        <nav class="navbar navbar-expand-lg  ">
-            <a class="navbar-brand" href="#"> 
-              <img src="images/logo.png" alt="">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav ml-auto">
-                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="#product">Product</a>
-                <a class="nav-item nav-link" href="#about-us">About us</a>
-                <a class="nav-item nav-link " href="#contact-us" tabindex="-1">Contact us</a>
-              </div>
-            </div>
-          </nav>
+      <nav class="navbar navbar-expand-lg navbar-light  ">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" tabindex="-1" >Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </div>
-    <div class="container">
+    <div class="container" >
 
       <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
@@ -78,10 +86,17 @@
     </div>
 
     <div class="container smartphone">
-      <h3>Smartphone</h3>
-      <a class="float-right" data-toggle="collapse" href="#collapse1" aria-expanded="false" aria-controls="collapse1">
-      See All
-      </a>
+      <nav class="navbar navbar-expand-lg navbar-light ">
+        <a class="navbar-brand" href="#"><h3>Smartphone </h3></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto" id="see-all">
+            <a class="nav-item nav-link active " id="see-all" href="#">See All<span class="sr-only">(current)</span></a>
+          </div>
+        </div>
+      </nav>
       <div class="card-deck">
         <div class="card">
           <img src="images/phone/phone-1.png" class="card-img-top" alt="...">
@@ -124,10 +139,17 @@
     </div>
 
     <div class="container laptop">
-      <h3>Laptop</h3>
-      <a class="float-right" data-toggle="collapse" href="#collapse1" aria-expanded="false" aria-controls="collapse1">
-      See All
-      </a>
+      <nav class="navbar navbar-expand-lg navbar-light ">
+        <a class="navbar-brand" href="#"><h3>Laptop </h3></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link active" id="see-all" href="#">See All <span class="sr-only">(current)</span></a>
+          </div>
+        </div>
+      </nav>
       <div class="card-deck">
         <div class="card">
           <img src="images/laptop/product-1.png" class="card-img-top" alt="...">
@@ -170,7 +192,7 @@
     </div>
 
     <div class="container ">
-      <h3 class="price-button">Categories</h3>
+      <h3 class="price-button"> <u>Categories</u></h3>
       <div class="row align-items-center">
         <div class="col-md-3 categories price-button">
           <img src="images/Categories/bag.png" alt="">
